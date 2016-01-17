@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var app = express();
 var routes = require('./routes');
 
-app.set('port', (process.env.PORT || 3000));
+app.set('port', (process.env.PORT || 3333));
 app.use('/assets', express.static('./www/assets/'));
 
 app.use(bodyParser.json());
